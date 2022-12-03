@@ -1,5 +1,3 @@
-import java.lang.IllegalArgumentException
-
 fun main() {
 
     fun List<String>.parse() = map { it.split(" ") }
