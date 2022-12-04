@@ -17,7 +17,7 @@ fun main() {
                 first.filter { second.contains(it) }.distinct().sum()
             }
 
-    fun part22(input: List<String>) = input
+    fun part2(input: List<String>) = input
             .parse()
             .chunked(3)
             .sumOf { (first, second, third) ->
@@ -26,5 +26,5 @@ fun main() {
 
     val input = readInput("Day03")
     println(part1(input))
-    println(part22(input))
+    println(part2(input))
 }
